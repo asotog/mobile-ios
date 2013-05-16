@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC073DDA17443EBC00DEA537 /* 3-gears-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BC073DD917443EBC00DEA537 /* 3-gears-72.png */; };
+		BC073DDC17443EC300DEA537 /* 3-gears-144.png in Resources */ = {isa = PBXBuildFile; fileRef = BC073DDB17443EC300DEA537 /* 3-gears-144.png */; };
+		DF0F587615584AA900D4A99D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0F587515584AA900D4A99D /* UIKit.framework */; };
+		DF0F587815584AA900D4A99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0F587715584AA900D4A99D /* Foundation.framework */; };
+		DF0F587A15584AA900D4A99D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0F587915584AA900D4A99D /* CoreGraphics.framework */; };
+		DF0F588015584AA900D4A99D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF0F587E15584AA900D4A99D /* InfoPlist.strings */; };
+		DF0F588215584AA900D4A99D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F588115584AA900D4A99D /* main.m */; };
+		DF0F588915584AA900D4A99D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0F588715584AA900D4A99D /* MainStoryboard.storyboard */; };
+		DF0F58DB15584B0100D4A99D /* CrafterImageCarouselConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58A015584B0100D4A99D /* CrafterImageCarouselConfiguration.m */; };
+		DF0F58DC15584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58A315584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.m */; };
+		DF0F58DD15584B0100D4A99D /* CrafterArrayItemConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58A515584B0100D4A99D /* CrafterArrayItemConfigurer.m */; };
+		DF0F58DE15584B0100D4A99D /* CrafterCarouselConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58A715584B0100D4A99D /* CrafterCarouselConfigurer.m */; };
+		DF0F58DF15584B0100D4A99D /* CrafterFontConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58A915584B0100D4A99D /* CrafterFontConfigurer.m */; };
+		DF0F58E015584B0100D4A99D /* CrafterGridConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58AB15584B0100D4A99D /* CrafterGridConfigurer.m */; };
+		DF0F58E115584B0100D4A99D /* CrafterKVCObjectConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58AD15584B0100D4A99D /* CrafterKVCObjectConfigurer.m */; };
+		DF0F58E215584B0100D4A99D /* CrafterObjectConfigurerRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58B015584B0100D4A99D /* CrafterObjectConfigurerRegistry.m */; };
+		DF0F58E315584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58B215584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.m */; };
+		DF0F58E415584B0100D4A99D /* CrafterWebViewConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58B415584B0100D4A99D /* CrafterWebViewConfigurer.m */; };
+		DF0F58E515584B0100D4A99D /* CrafterUIConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58B615584B0100D4A99D /* CrafterUIConfigurer.m */; };
+		DF0F58E615584B0100D4A99D /* CrafterAppLinkGridConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58B915584B0100D4A99D /* CrafterAppLinkGridConfiguration.m */; };
+		DF0F58E715584B0100D4A99D /* CrafterTextParserRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58BD15584B0100D4A99D /* CrafterTextParserRegistry.m */; };
+		DF0F58E815584B0100D4A99D /* CrafterToCharTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58BF15584B0100D4A99D /* CrafterToCharTextParser.m */; };
+		DF0F58E915584B0100D4A99D /* CrafterToColorTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58C115584B0100D4A99D /* CrafterToColorTextParser.m */; };
+		DF0F58EA15584B0100D4A99D /* CrafterToImageTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58C315584B0100D4A99D /* CrafterToImageTextParser.m */; };
+		DF0F58EB15584B0100D4A99D /* CrafterToNumberTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58C515584B0100D4A99D /* CrafterToNumberTextParser.m */; };
+		DF0F58EC15584B0100D4A99D /* CrafterToTextTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58C715584B0100D4A99D /* CrafterToTextTextParser.m */; };
+		DF0F58ED15584B0100D4A99D /* CrafterActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58CA15584B0100D4A99D /* CrafterActionSheet.m */; };
+		DF0F58EE15584B0100D4A99D /* CrafterAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58CC15584B0100D4A99D /* CrafterAppLink.m */; };
+		DF0F58EF15584B0100D4A99D /* CrafterTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58CE15584B0100D4A99D /* CrafterTypes.m */; };
+		DF0F58F015584B0100D4A99D /* DDXMLElement+CrafterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58D015584B0100D4A99D /* DDXMLElement+CrafterAdditions.m */; };
+		DF0F58F115584B0100D4A99D /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58D215584B0100D4A99D /* NSObject+Reflection.m */; };
+		DF0F58F215584B0100D4A99D /* NSString+CrafterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58D415584B0100D4A99D /* NSString+CrafterAdditions.m */; };
+		DF0F58F315584B0100D4A99D /* NSURL+CrafterRAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58D615584B0100D4A99D /* NSURL+CrafterRAdditions.m */; };
+		DF0F58F415584B0100D4A99D /* UIColor+CrafterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58D815584B0100D4A99D /* UIColor+CrafterAdditions.m */; };
+		DF0F58F515584B0100D4A99D /* UIImage+CrafterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58DA15584B0100D4A99D /* UIImage+CrafterAdditions.m */; };
+		DF0F590315584B3600D4A99D /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58F915584B3600D4A99D /* GMGridView.m */; };
+		DF0F590415584B3600D4A99D /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58FC15584B3600D4A99D /* GMGridViewCell.m */; };
+		DF0F590515584B3600D4A99D /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F58FE15584B3600D4A99D /* GMGridViewLayoutStrategies.m */; };
+		DF0F590615584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F590015584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		DF0F590715584B3600D4A99D /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F590215584B3600D4A99D /* UIView+GMGridViewAdditions.m */; };
+		DF0F591815584B3E00D4A99D /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F590B15584B3E00D4A99D /* DDXMLElementAdditions.m */; };
+		DF0F591915584B3E00D4A99D /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F590E15584B3E00D4A99D /* NSString+DDXML.m */; };
+		DF0F591A15584B3E00D4A99D /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F591115584B3E00D4A99D /* DDXMLDocument.m */; };
+		DF0F591B15584B3E00D4A99D /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F591315584B3E00D4A99D /* DDXMLElement.m */; };
+		DF0F591C15584B3E00D4A99D /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F591515584B3E00D4A99D /* DDXMLNode.m */; };
+		DF0F592015584B4A00D4A99D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F591F15584B4A00D4A99D /* iCarousel.m */; };
+		DF0F592415584B5C00D4A99D /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F592315584B5C00D4A99D /* ReflectionView.m */; };
+		DF0F592815584B6700D4A99D /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F592715584B6700D4A99D /* AsyncImageView.m */; };
+		DF0F592A15584BB500D4A99D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0F592915584BB500D4A99D /* QuartzCore.framework */; };
+		DF0F59411558605700D4A99D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF0F593F1558605700D4A99D /* Settings.bundle */; };
+		DF0F594C155860B500D4A99D /* CrafterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F5943155860B500D4A99D /* CrafterAppDelegate.m */; };
+		DF0F594D155860B500D4A99D /* CrafterConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F5945155860B500D4A99D /* CrafterConnectViewController.m */; };
+		DF0F594E155860B500D4A99D /* CrafterGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F5947155860B500D4A99D /* CrafterGalleryViewController.m */; };
+		DF0F594F155860B500D4A99D /* CrafterHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F5949155860B500D4A99D /* CrafterHomeViewController.m */; };
+		DF0F5950155860B500D4A99D /* CrafterUILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F594B155860B500D4A99D /* CrafterUILoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC073DD917443EBC00DEA537 /* 3-gears-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-gears-72.png"; sourceTree = "<group>"; };
+		BC073DDB17443EC300DEA537 /* 3-gears-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-gears-144.png"; sourceTree = "<group>"; };
+		DF0F587115584AA900D4A99D /* CrafterCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrafterCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0F587515584AA900D4A99D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF0F587715584AA900D4A99D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF0F587915584AA900D4A99D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF0F587D15584AA900D4A99D /* CrafterCMS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrafterCMS-Info.plist"; sourceTree = "<group>"; };
+		DF0F587F15584AA900D4A99D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF0F588115584AA900D4A99D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF0F588315584AA900D4A99D /* CrafterCMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrafterCMS-Prefix.pch"; sourceTree = "<group>"; };
+		DF0F588815584AA900D4A99D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF0F589F15584B0100D4A99D /* CrafterImageCarouselConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterImageCarouselConfiguration.h; sourceTree = "<group>"; };
+		DF0F58A015584B0100D4A99D /* CrafterImageCarouselConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterImageCarouselConfiguration.m; sourceTree = "<group>"; };
+		DF0F58A215584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterActionSheetButtonsConfigurer.h; sourceTree = "<group>"; };
+		DF0F58A315584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterActionSheetButtonsConfigurer.m; sourceTree = "<group>"; };
+		DF0F58A415584B0100D4A99D /* CrafterArrayItemConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterArrayItemConfigurer.h; sourceTree = "<group>"; };
+		DF0F58A515584B0100D4A99D /* CrafterArrayItemConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterArrayItemConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58A615584B0100D4A99D /* CrafterCarouselConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterCarouselConfigurer.h; sourceTree = "<group>"; };
+		DF0F58A715584B0100D4A99D /* CrafterCarouselConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterCarouselConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58A815584B0100D4A99D /* CrafterFontConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterFontConfigurer.h; sourceTree = "<group>"; };
+		DF0F58A915584B0100D4A99D /* CrafterFontConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterFontConfigurer.m; sourceTree = "<group>"; };
+		DF0F58AA15584B0100D4A99D /* CrafterGridConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterGridConfigurer.h; sourceTree = "<group>"; };
+		DF0F58AB15584B0100D4A99D /* CrafterGridConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterGridConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58AC15584B0100D4A99D /* CrafterKVCObjectConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterKVCObjectConfigurer.h; sourceTree = "<group>"; };
+		DF0F58AD15584B0100D4A99D /* CrafterKVCObjectConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterKVCObjectConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58AE15584B0100D4A99D /* CrafterObjectConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterObjectConfigurer.h; sourceTree = "<group>"; };
+		DF0F58AF15584B0100D4A99D /* CrafterObjectConfigurerRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterObjectConfigurerRegistry.h; sourceTree = "<group>"; };
+		DF0F58B015584B0100D4A99D /* CrafterObjectConfigurerRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterObjectConfigurerRegistry.m; sourceTree = "<group>"; };
+		DF0F58B115584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterViewBackgroundColorConfigurer.h; sourceTree = "<group>"; };
+		DF0F58B215584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterViewBackgroundColorConfigurer.m; sourceTree = "<group>"; };
+		DF0F58B315584B0100D4A99D /* CrafterWebViewConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterWebViewConfigurer.h; sourceTree = "<group>"; };
+		DF0F58B415584B0100D4A99D /* CrafterWebViewConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterWebViewConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58B515584B0100D4A99D /* CrafterUIConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterUIConfigurer.h; sourceTree = "<group>"; };
+		DF0F58B615584B0100D4A99D /* CrafterUIConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterUIConfigurer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58B815584B0100D4A99D /* CrafterAppLinkGridConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterAppLinkGridConfiguration.h; sourceTree = "<group>"; };
+		DF0F58B915584B0100D4A99D /* CrafterAppLinkGridConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterAppLinkGridConfiguration.m; sourceTree = "<group>"; };
+		DF0F58BB15584B0100D4A99D /* CrafterTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterTextParser.h; sourceTree = "<group>"; };
+		DF0F58BC15584B0100D4A99D /* CrafterTextParserRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterTextParserRegistry.h; sourceTree = "<group>"; };
+		DF0F58BD15584B0100D4A99D /* CrafterTextParserRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterTextParserRegistry.m; sourceTree = "<group>"; };
+		DF0F58BE15584B0100D4A99D /* CrafterToCharTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterToCharTextParser.h; sourceTree = "<group>"; };
+		DF0F58BF15584B0100D4A99D /* CrafterToCharTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterToCharTextParser.m; sourceTree = "<group>"; };
+		DF0F58C015584B0100D4A99D /* CrafterToColorTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterToColorTextParser.h; sourceTree = "<group>"; };
+		DF0F58C115584B0100D4A99D /* CrafterToColorTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterToColorTextParser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58C215584B0100D4A99D /* CrafterToImageTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterToImageTextParser.h; sourceTree = "<group>"; };
+		DF0F58C315584B0100D4A99D /* CrafterToImageTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterToImageTextParser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58C415584B0100D4A99D /* CrafterToNumberTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterToNumberTextParser.h; sourceTree = "<group>"; };
+		DF0F58C515584B0100D4A99D /* CrafterToNumberTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterToNumberTextParser.m; sourceTree = "<group>"; };
+		DF0F58C615584B0100D4A99D /* CrafterToTextTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterToTextTextParser.h; sourceTree = "<group>"; };
+		DF0F58C715584B0100D4A99D /* CrafterToTextTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterToTextTextParser.m; sourceTree = "<group>"; };
+		DF0F58C915584B0100D4A99D /* CrafterActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterActionSheet.h; sourceTree = "<group>"; };
+		DF0F58CA15584B0100D4A99D /* CrafterActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterActionSheet.m; sourceTree = "<group>"; };
+		DF0F58CB15584B0100D4A99D /* CrafterAppLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterAppLink.h; sourceTree = "<group>"; };
+		DF0F58CC15584B0100D4A99D /* CrafterAppLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterAppLink.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58CD15584B0100D4A99D /* CrafterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterTypes.h; sourceTree = "<group>"; };
+		DF0F58CE15584B0100D4A99D /* CrafterTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CrafterTypes.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58CF15584B0100D4A99D /* DDXMLElement+CrafterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "DDXMLElement+CrafterAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DF0F58D015584B0100D4A99D /* DDXMLElement+CrafterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "DDXMLElement+CrafterAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58D115584B0100D4A99D /* NSObject+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
+		DF0F58D215584B0100D4A99D /* NSObject+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Reflection.m"; sourceTree = "<group>"; };
+		DF0F58D315584B0100D4A99D /* NSString+CrafterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSString+CrafterAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DF0F58D415584B0100D4A99D /* NSString+CrafterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSString+CrafterAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58D515584B0100D4A99D /* NSURL+CrafterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSURL+CrafterAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DF0F58D615584B0100D4A99D /* NSURL+CrafterRAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSURL+CrafterRAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58D715584B0100D4A99D /* UIColor+CrafterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIColor+CrafterAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DF0F58D815584B0100D4A99D /* UIColor+CrafterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIColor+CrafterAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58D915584B0100D4A99D /* UIImage+CrafterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIImage+CrafterAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DF0F58DA15584B0100D4A99D /* UIImage+CrafterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+CrafterAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DF0F58F715584B3600D4A99D /* GMGridView-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridView-Constants.h"; sourceTree = "<group>"; };
+		DF0F58F815584B3600D4A99D /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridView.h; sourceTree = "<group>"; };
+		DF0F58F915584B3600D4A99D /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridView.m; sourceTree = "<group>"; };
+		DF0F58FA15584B3600D4A99D /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		DF0F58FB15584B3600D4A99D /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewCell.h; sourceTree = "<group>"; };
+		DF0F58FC15584B3600D4A99D /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewCell.m; sourceTree = "<group>"; };
+		DF0F58FD15584B3600D4A99D /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		DF0F58FE15584B3600D4A99D /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		DF0F58FF15584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		DF0F590015584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		DF0F590115584B3600D4A99D /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		DF0F590215584B3600D4A99D /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		DF0F590A15584B3E00D4A99D /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		DF0F590B15584B3E00D4A99D /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		DF0F590D15584B3E00D4A99D /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		DF0F590E15584B3E00D4A99D /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		DF0F590F15584B3E00D4A99D /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		DF0F591015584B3E00D4A99D /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		DF0F591115584B3E00D4A99D /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		DF0F591215584B3E00D4A99D /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		DF0F591315584B3E00D4A99D /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		DF0F591415584B3E00D4A99D /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		DF0F591515584B3E00D4A99D /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		DF0F591715584B3E00D4A99D /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		DF0F591E15584B4A00D4A99D /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		DF0F591F15584B4A00D4A99D /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		DF0F592215584B5C00D4A99D /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		DF0F592315584B5C00D4A99D /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		DF0F592615584B6700D4A99D /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		DF0F592715584B6700D4A99D /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		DF0F592915584BB500D4A99D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF0F593F1558605700D4A99D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DF0F5942155860B500D4A99D /* CrafterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterAppDelegate.h; sourceTree = "<group>"; };
+		DF0F5943155860B500D4A99D /* CrafterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterAppDelegate.m; sourceTree = "<group>"; };
+		DF0F5944155860B500D4A99D /* CrafterConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterConnectViewController.h; sourceTree = "<group>"; };
+		DF0F5945155860B500D4A99D /* CrafterConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterConnectViewController.m; sourceTree = "<group>"; };
+		DF0F5946155860B500D4A99D /* CrafterGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterGalleryViewController.h; sourceTree = "<group>"; };
+		DF0F5947155860B500D4A99D /* CrafterGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterGalleryViewController.m; sourceTree = "<group>"; };
+		DF0F5948155860B500D4A99D /* CrafterHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterHomeViewController.h; sourceTree = "<group>"; };
+		DF0F5949155860B500D4A99D /* CrafterHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterHomeViewController.m; sourceTree = "<group>"; };
+		DF0F594A155860B500D4A99D /* CrafterUILoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrafterUILoader.h; sourceTree = "<group>"; };
+		DF0F594B155860B500D4A99D /* CrafterUILoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrafterUILoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0F586E15584AA900D4A99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F592A15584BB500D4A99D /* QuartzCore.framework in Frameworks */,
+				DF0F587615584AA900D4A99D /* UIKit.framework in Frameworks */,
+				DF0F587815584AA900D4A99D /* Foundation.framework in Frameworks */,
+				DF0F587A15584AA900D4A99D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0F586615584AA900D4A99D = {
+			isa = PBXGroup;
+			children = (
+				DF0F592515584B6700D4A99D /* AsyncImageView */,
+				DF0F592115584B5C00D4A99D /* ReflectionView */,
+				DF0F591D15584B4A00D4A99D /* iCarousel */,
+				DF0F590815584B3E00D4A99D /* KissXML */,
+				DF0F58F615584B3600D4A99D /* GMGridView */,
+				DF0F587B15584AA900D4A99D /* CrafterCMS */,
+				DF0F587415584AA900D4A99D /* Frameworks */,
+				DF0F587215584AA900D4A99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0F587215584AA900D4A99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F587115584AA900D4A99D /* CrafterCMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0F587415584AA900D4A99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F592915584BB500D4A99D /* QuartzCore.framework */,
+				DF0F587515584AA900D4A99D /* UIKit.framework */,
+				DF0F587715584AA900D4A99D /* Foundation.framework */,
+				DF0F587915584AA900D4A99D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0F587B15584AA900D4A99D /* CrafterCMS */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F589D15584B0100D4A99D /* Framework */,
+				DF0F588715584AA900D4A99D /* MainStoryboard.storyboard */,
+				DF0F5942155860B500D4A99D /* CrafterAppDelegate.h */,
+				DF0F5943155860B500D4A99D /* CrafterAppDelegate.m */,
+				DF0F5944155860B500D4A99D /* CrafterConnectViewController.h */,
+				DF0F5945155860B500D4A99D /* CrafterConnectViewController.m */,
+				DF0F5946155860B500D4A99D /* CrafterGalleryViewController.h */,
+				DF0F5947155860B500D4A99D /* CrafterGalleryViewController.m */,
+				DF0F5948155860B500D4A99D /* CrafterHomeViewController.h */,
+				DF0F5949155860B500D4A99D /* CrafterHomeViewController.m */,
+				DF0F594A155860B500D4A99D /* CrafterUILoader.h */,
+				DF0F594B155860B500D4A99D /* CrafterUILoader.m */,
+				DF0F587C15584AA900D4A99D /* Supporting Files */,
+			);
+			path = CrafterCMS;
+			sourceTree = "<group>";
+		};
+		DF0F587C15584AA900D4A99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC073DDB17443EC300DEA537 /* 3-gears-144.png */,
+				BC073DD917443EBC00DEA537 /* 3-gears-72.png */,
+				DF0F593F1558605700D4A99D /* Settings.bundle */,
+				DF0F587D15584AA900D4A99D /* CrafterCMS-Info.plist */,
+				DF0F587E15584AA900D4A99D /* InfoPlist.strings */,
+				DF0F588115584AA900D4A99D /* main.m */,
+				DF0F588315584AA900D4A99D /* CrafterCMS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF0F589D15584B0100D4A99D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F589E15584B0100D4A99D /* Carousel */,
+				DF0F58A115584B0100D4A99D /* Configurers */,
+				DF0F58B515584B0100D4A99D /* CrafterUIConfigurer.h */,
+				DF0F58B615584B0100D4A99D /* CrafterUIConfigurer.m */,
+				DF0F58B715584B0100D4A99D /* Grid */,
+				DF0F58BA15584B0100D4A99D /* Parsers */,
+				DF0F58C815584B0100D4A99D /* Utils */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		DF0F589E15584B0100D4A99D /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F589F15584B0100D4A99D /* CrafterImageCarouselConfiguration.h */,
+				DF0F58A015584B0100D4A99D /* CrafterImageCarouselConfiguration.m */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		DF0F58A115584B0100D4A99D /* Configurers */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F58A215584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.h */,
+				DF0F58A315584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.m */,
+				DF0F58A415584B0100D4A99D /* CrafterArrayItemConfigurer.h */,
+				DF0F58A515584B0100D4A99D /* CrafterArrayItemConfigurer.m */,
+				DF0F58A615584B0100D4A99D /* CrafterCarouselConfigurer.h */,
+				DF0F58A715584B0100D4A99D /* CrafterCarouselConfigurer.m */,
+				DF0F58A815584B0100D4A99D /* CrafterFontConfigurer.h */,
+				DF0F58A915584B0100D4A99D /* CrafterFontConfigurer.m */,
+				DF0F58AA15584B0100D4A99D /* CrafterGridConfigurer.h */,
+				DF0F58AB15584B0100D4A99D /* CrafterGridConfigurer.m */,
+				DF0F58AC15584B0100D4A99D /* CrafterKVCObjectConfigurer.h */,
+				DF0F58AD15584B0100D4A99D /* CrafterKVCObjectConfigurer.m */,
+				DF0F58AE15584B0100D4A99D /* CrafterObjectConfigurer.h */,
+				DF0F58AF15584B0100D4A99D /* CrafterObjectConfigurerRegistry.h */,
+				DF0F58B015584B0100D4A99D /* CrafterObjectConfigurerRegistry.m */,
+				DF0F58B115584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.h */,
+				DF0F58B215584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.m */,
+				DF0F58B315584B0100D4A99D /* CrafterWebViewConfigurer.h */,
+				DF0F58B415584B0100D4A99D /* CrafterWebViewConfigurer.m */,
+			);
+			path = Configurers;
+			sourceTree = "<group>";
+		};
+		DF0F58B715584B0100D4A99D /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F58B815584B0100D4A99D /* CrafterAppLinkGridConfiguration.h */,
+				DF0F58B915584B0100D4A99D /* CrafterAppLinkGridConfiguration.m */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		DF0F58BA15584B0100D4A99D /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F58BB15584B0100D4A99D /* CrafterTextParser.h */,
+				DF0F58BC15584B0100D4A99D /* CrafterTextParserRegistry.h */,
+				DF0F58BD15584B0100D4A99D /* CrafterTextParserRegistry.m */,
+				DF0F58BE15584B0100D4A99D /* CrafterToCharTextParser.h */,
+				DF0F58BF15584B0100D4A99D /* CrafterToCharTextParser.m */,
+				DF0F58C015584B0100D4A99D /* CrafterToColorTextParser.h */,
+				DF0F58C115584B0100D4A99D /* CrafterToColorTextParser.m */,
+				DF0F58C215584B0100D4A99D /* CrafterToImageTextParser.h */,
+				DF0F58C315584B0100D4A99D /* CrafterToImageTextParser.m */,
+				DF0F58C415584B0100D4A99D /* CrafterToNumberTextParser.h */,
+				DF0F58C515584B0100D4A99D /* CrafterToNumberTextParser.m */,
+				DF0F58C615584B0100D4A99D /* CrafterToTextTextParser.h */,
+				DF0F58C715584B0100D4A99D /* CrafterToTextTextParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		DF0F58C815584B0100D4A99D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F58C915584B0100D4A99D /* CrafterActionSheet.h */,
+				DF0F58CA15584B0100D4A99D /* CrafterActionSheet.m */,
+				DF0F58CB15584B0100D4A99D /* CrafterAppLink.h */,
+				DF0F58CC15584B0100D4A99D /* CrafterAppLink.m */,
+				DF0F58CD15584B0100D4A99D /* CrafterTypes.h */,
+				DF0F58CE15584B0100D4A99D /* CrafterTypes.m */,
+				DF0F58CF15584B0100D4A99D /* DDXMLElement+CrafterAdditions.h */,
+				DF0F58D015584B0100D4A99D /* DDXMLElement+CrafterAdditions.m */,
+				DF0F58D115584B0100D4A99D /* NSObject+Reflection.h */,
+				DF0F58D215584B0100D4A99D /* NSObject+Reflection.m */,
+				DF0F58D315584B0100D4A99D /* NSString+CrafterAdditions.h */,
+				DF0F58D415584B0100D4A99D /* NSString+CrafterAdditions.m */,
+				DF0F58D515584B0100D4A99D /* NSURL+CrafterAdditions.h */,
+				DF0F58D615584B0100D4A99D /* NSURL+CrafterRAdditions.m */,
+				DF0F58D715584B0100D4A99D /* UIColor+CrafterAdditions.h */,
+				DF0F58D815584B0100D4A99D /* UIColor+CrafterAdditions.m */,
+				DF0F58D915584B0100D4A99D /* UIImage+CrafterAdditions.h */,
+				DF0F58DA15584B0100D4A99D /* UIImage+CrafterAdditions.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF0F58F615584B3600D4A99D /* GMGridView */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F58F715584B3600D4A99D /* GMGridView-Constants.h */,
+				DF0F58F815584B3600D4A99D /* GMGridView.h */,
+				DF0F58F915584B3600D4A99D /* GMGridView.m */,
+				DF0F58FA15584B3600D4A99D /* GMGridViewCell+Extended.h */,
+				DF0F58FB15584B3600D4A99D /* GMGridViewCell.h */,
+				DF0F58FC15584B3600D4A99D /* GMGridViewCell.m */,
+				DF0F58FD15584B3600D4A99D /* GMGridViewLayoutStrategies.h */,
+				DF0F58FE15584B3600D4A99D /* GMGridViewLayoutStrategies.m */,
+				DF0F58FF15584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				DF0F590015584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				DF0F590115584B3600D4A99D /* UIView+GMGridViewAdditions.h */,
+				DF0F590215584B3600D4A99D /* UIView+GMGridViewAdditions.m */,
+			);
+			path = GMGridView;
+			sourceTree = "<group>";
+		};
+		DF0F590815584B3E00D4A99D /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F590915584B3E00D4A99D /* Additions */,
+				DF0F590C15584B3E00D4A99D /* Categories */,
+				DF0F590F15584B3E00D4A99D /* DDXML.h */,
+				DF0F591015584B3E00D4A99D /* DDXMLDocument.h */,
+				DF0F591115584B3E00D4A99D /* DDXMLDocument.m */,
+				DF0F591215584B3E00D4A99D /* DDXMLElement.h */,
+				DF0F591315584B3E00D4A99D /* DDXMLElement.m */,
+				DF0F591415584B3E00D4A99D /* DDXMLNode.h */,
+				DF0F591515584B3E00D4A99D /* DDXMLNode.m */,
+				DF0F591615584B3E00D4A99D /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		DF0F590915584B3E00D4A99D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F590A15584B3E00D4A99D /* DDXMLElementAdditions.h */,
+				DF0F590B15584B3E00D4A99D /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		DF0F590C15584B3E00D4A99D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F590D15584B3E00D4A99D /* NSString+DDXML.h */,
+				DF0F590E15584B3E00D4A99D /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DF0F591615584B3E00D4A99D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F591715584B3E00D4A99D /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		DF0F591D15584B4A00D4A99D /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F591E15584B4A00D4A99D /* iCarousel.h */,
+				DF0F591F15584B4A00D4A99D /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		DF0F592115584B5C00D4A99D /* ReflectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F592215584B5C00D4A99D /* ReflectionView.h */,
+				DF0F592315584B5C00D4A99D /* ReflectionView.m */,
+			);
+			path = ReflectionView;
+			sourceTree = "<group>";
+		};
+		DF0F592515584B6700D4A99D /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F592615584B6700D4A99D /* AsyncImageView.h */,
+				DF0F592715584B6700D4A99D /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0F587015584AA900D4A99D /* CrafterCMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0F589A15584AA900D4A99D /* Build configuration list for PBXNativeTarget "CrafterCMS" */;
+			buildPhases = (
+				DF0F586D15584AA900D4A99D /* Sources */,
+				DF0F586E15584AA900D4A99D /* Frameworks */,
+				DF0F586F15584AA900D4A99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrafterCMS;
+			productName = CrafterCMS;
+			productReference = DF0F587115584AA900D4A99D /* CrafterCMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0F586815584AA900D4A99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CrafterCMS;
+			};
+			buildConfigurationList = DF0F586B15584AA900D4A99D /* Build configuration list for PBXProject "CrafterCMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF0F586615584AA900D4A99D;
+			productRefGroup = DF0F587215584AA900D4A99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0F587015584AA900D4A99D /* CrafterCMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0F586F15584AA900D4A99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F588015584AA900D4A99D /* InfoPlist.strings in Resources */,
+				DF0F588915584AA900D4A99D /* MainStoryboard.storyboard in Resources */,
+				DF0F59411558605700D4A99D /* Settings.bundle in Resources */,
+				BC073DDA17443EBC00DEA537 /* 3-gears-72.png in Resources */,
+				BC073DDC17443EC300DEA537 /* 3-gears-144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0F586D15584AA900D4A99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F588215584AA900D4A99D /* main.m in Sources */,
+				DF0F58DB15584B0100D4A99D /* CrafterImageCarouselConfiguration.m in Sources */,
+				DF0F58DC15584B0100D4A99D /* CrafterActionSheetButtonsConfigurer.m in Sources */,
+				DF0F58DD15584B0100D4A99D /* CrafterArrayItemConfigurer.m in Sources */,
+				DF0F58DE15584B0100D4A99D /* CrafterCarouselConfigurer.m in Sources */,
+				DF0F58DF15584B0100D4A99D /* CrafterFontConfigurer.m in Sources */,
+				DF0F58E015584B0100D4A99D /* CrafterGridConfigurer.m in Sources */,
+				DF0F58E115584B0100D4A99D /* CrafterKVCObjectConfigurer.m in Sources */,
+				DF0F58E215584B0100D4A99D /* CrafterObjectConfigurerRegistry.m in Sources */,
+				DF0F58E315584B0100D4A99D /* CrafterViewBackgroundColorConfigurer.m in Sources */,
+				DF0F58E415584B0100D4A99D /* CrafterWebViewConfigurer.m in Sources */,
+				DF0F58E515584B0100D4A99D /* CrafterUIConfigurer.m in Sources */,
+				DF0F58E615584B0100D4A99D /* CrafterAppLinkGridConfiguration.m in Sources */,
+				DF0F58E715584B0100D4A99D /* CrafterTextParserRegistry.m in Sources */,
+				DF0F58E815584B0100D4A99D /* CrafterToCharTextParser.m in Sources */,
+				DF0F58E915584B0100D4A99D /* CrafterToColorTextParser.m in Sources */,
+				DF0F58EA15584B0100D4A99D /* CrafterToImageTextParser.m in Sources */,
+				DF0F58EB15584B0100D4A99D /* CrafterToNumberTextParser.m in Sources */,
+				DF0F58EC15584B0100D4A99D /* CrafterToTextTextParser.m in Sources */,
+				DF0F58ED15584B0100D4A99D /* CrafterActionSheet.m in Sources */,
+				DF0F58EE15584B0100D4A99D /* CrafterAppLink.m in Sources */,
+				DF0F58EF15584B0100D4A99D /* CrafterTypes.m in Sources */,
+				DF0F58F015584B0100D4A99D /* DDXMLElement+CrafterAdditions.m in Sources */,
+				DF0F58F115584B0100D4A99D /* NSObject+Reflection.m in Sources */,
+				DF0F58F215584B0100D4A99D /* NSString+CrafterAdditions.m in Sources */,
+				DF0F58F315584B0100D4A99D /* NSURL+CrafterRAdditions.m in Sources */,
+				DF0F58F415584B0100D4A99D /* UIColor+CrafterAdditions.m in Sources */,
+				DF0F58F515584B0100D4A99D /* UIImage+CrafterAdditions.m in Sources */,
+				DF0F590315584B3600D4A99D /* GMGridView.m in Sources */,
+				DF0F590415584B3600D4A99D /* GMGridViewCell.m in Sources */,
+				DF0F590515584B3600D4A99D /* GMGridViewLayoutStrategies.m in Sources */,
+				DF0F590615584B3600D4A99D /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
+				DF0F590715584B3600D4A99D /* UIView+GMGridViewAdditions.m in Sources */,
+				DF0F591815584B3E00D4A99D /* DDXMLElementAdditions.m in Sources */,
+				DF0F591915584B3E00D4A99D /* NSString+DDXML.m in Sources */,
+				DF0F591A15584B3E00D4A99D /* DDXMLDocument.m in Sources */,
+				DF0F591B15584B3E00D4A99D /* DDXMLElement.m in Sources */,
+				DF0F591C15584B3E00D4A99D /* DDXMLNode.m in Sources */,
+				DF0F592015584B4A00D4A99D /* iCarousel.m in Sources */,
+				DF0F592415584B5C00D4A99D /* ReflectionView.m in Sources */,
+				DF0F592815584B6700D4A99D /* AsyncImageView.m in Sources */,
+				DF0F594C155860B500D4A99D /* CrafterAppDelegate.m in Sources */,
+				DF0F594D155860B500D4A99D /* CrafterConnectViewController.m in Sources */,
+				DF0F594E155860B500D4A99D /* CrafterGalleryViewController.m in Sources */,
+				DF0F594F155860B500D4A99D /* CrafterHomeViewController.m in Sources */,
+				DF0F5950155860B500D4A99D /* CrafterUILoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF0F587E15584AA900D4A99D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0F587F15584AA900D4A99D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF0F588715584AA900D4A99D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0F588815584AA900D4A99D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0F589815584AA900D4A99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DF0F589915584AA900D4A99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0F589B15584AA900D4A99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrafterCMS/CrafterCMS-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CrafterCMS/CrafterCMS-Info.plist";
+				PRODUCT_NAME = CrafterCMS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF0F589C15584AA900D4A99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrafterCMS/CrafterCMS-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CrafterCMS/CrafterCMS-Info.plist";
+				PRODUCT_NAME = CrafterCMS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0F586B15584AA900D4A99D /* Build configuration list for PBXProject "CrafterCMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0F589815584AA900D4A99D /* Debug */,
+				DF0F589915584AA900D4A99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0F589A15584AA900D4A99D /* Build configuration list for PBXNativeTarget "CrafterCMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0F589B15584AA900D4A99D /* Debug */,
+				DF0F589C15584AA900D4A99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0F586815584AA900D4A99D /* Project object */;
+}
